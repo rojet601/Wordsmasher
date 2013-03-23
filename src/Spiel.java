@@ -12,6 +12,8 @@ public class Spiel extends JFrame {
 	private JButton hilfe;
 	private Display display;
 
+	public String[] wörter = {"lol", "rofl", "xd"};
+	
 	private long lastTick;
 	private long tick;
 
