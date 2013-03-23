@@ -7,7 +7,10 @@ import javax.swing.JTextField;
 
 public class Spiel extends JFrame {
 	private static final long serialVersionUID = 290407224061845329L;
-
+	
+	public static final int BUBBLE_WIDTH = 100;
+	public static final int BUBBLE_HEIGHT = 60; 
+	
 	private JTextField eingabe;
 	private JButton hilfe;
 	private Display display;
